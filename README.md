@@ -32,7 +32,7 @@ I am a Master’s student in Berlin bridging the gap between raw data and intell
 - **Tech:** Random Forest, GridSearch, Feature Importance Analysis.
 - **Impact:** Achieved **96% Test Accuracy** and identified In-flight Wi-Fi as a top ROI driver.
 
-####  [Telecom Customer Churn Prediction](https://github.com/wckd6174/telecom-churn-predictionhttps://github.com/wckd6174/telecom-churn-prediction)
+####  [Telecom Customer Churn Prediction](https://github.com/wckd6174/telecom-churn-prediction).
 *Predictive system to support data-driven retention strategies.*
 - **Tech:** XGBoost, SMOTE (Class Imbalance), Scikit-learn.
 - **Impact:** Optimized model for **Recall** to capture high-risk customers for intervention.
