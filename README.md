@@ -21,7 +21,7 @@ I am a Master’s student in Berlin bridging the gap between raw data and intell
 
 ###  Featured Projects
 
-####  [AI-Powered Mental Health Detection (NLP)](LINK_TO_YOUR_NEW_REPO_HERE)
+####  [AI-Powered Mental Health Detection (NLP)](https://github.com/wckd6174/mental-health-nlp-detection)
 *Authored research benchmarking Transformer models against Deep Learning baselines.*
 - **Tech:** BERT, RoBERTa, LSTM, PyTorch.
 - **Impact:** Achieved **>99% accuracy** in detecting depressive language on social media.
