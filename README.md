@@ -4,10 +4,10 @@
 
 I am a Master's student in Berlin bridging the gap between raw data and intelligent decision-making. I specialize in building robust **NLP pipelines**, **predictive models**, and **geospatial analyses** that solve real-world problems across business, healthcare, and urban planning.
 
-- 🔬 Currently writing my Master's thesis on **Cross-Lingual Transfer in Multilingual LLMs** (BERT, mBERT, XLM-RoBERTa)
-- 🌍 Recently published a satellite-based **Urban Canopy & Heat Analysis** of Riyadh using Google Earth Engine
-- 📊 Authored research on **Mental Health Detection using BERT & RoBERTa**
-- 💼 Open to **Working Student** & **Entry-Level** roles in ML/AI, Data Science, and Geospatial Analytics
+-  Currently writing my Master's thesis on **Cross-Lingual Transfer in Multilingual LLMs** (BERT, mBERT, XLM-RoBERTa)
+-  Recently published a satellite-based **Urban Canopy & Heat Analysis** of Riyadh using Google Earth Engine
+-  Authored research on **Mental Health Detection using BERT & RoBERTa**
+-  Open to **Working Student** & **Entry-Level** roles in ML/AI, Data Science, and Geospatial Analytics
 
 ---
 
