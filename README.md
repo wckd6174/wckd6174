@@ -34,6 +34,12 @@ I am a Master's student in Berlin bridging the gap between raw data and intellig
 - **Impact:** Quantified **+27% vegetation cover growth** (2019–2025) and identified **246 km² of high-priority planting zones** — a 2.5× expansion envelope on current canopy.
 - **Highlight:** Multi-sensor fusion (optical NDVI + thermal LST + land-cover masking) producing planning-ready intervention zones.
 
+### 🌊 [El Niño Global Teleconnections & Rainfall Prediction]
+End-to-end climate analysis mapping how El Niño reorganises rainfall worldwide, with a validated regional prediction model.
+- **Tech:** xarray, Cartopy, Scikit-learn, NOAA ERSSTv5 & GPCP, Python.
+- **Impact:** Reproduced every canonical El Niño teleconnection from raw data; a model trained excluding the 2015/16 super-El-Niño still anticipated its rainfall pattern (DJF correlation up to 0.91).
+- **Highlight:** Diagnosed that the model captures rainfall *timing* but under-predicts *extreme magnitude* — and that ENSO skill decays from the Pacific core outward, weakest where the Indian Ocean Dipole dominates.
+  
 ### 🧠 [AI-Powered Mental Health Detection (NLP)](https://github.com/wckd6174/mental-health-nlp-detection)
 
 *Authored research benchmarking Transformer models against Deep Learning baselines.*
