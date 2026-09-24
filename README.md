@@ -1,69 +1,76 @@
-# Hi there, I'm Amin! 👋
+<h1 align="center">Amin Baiju</h1>
+<p align="center">
+  <b>Data Scientist · NLP & Multilingual ML · Geospatial Analytics</b><br>
+  MSc Data Science, AI & Digital Business (Gisma, Berlin, 2026) · Open to Data Science / ML / NLP roles, Berlin or remote
+</p>
 
-## Machine Learning Engineer | NLP & Geospatial Analytics | Data Scientist
-
-I am MSc Data Science graduate based in Berlin bridging the gap between raw data and intelligent decision-making. I specialize in building robust **NLP pipelines**, **predictive models**, and **geospatial analyses** that solve real-world problems across business, healthcare, and urban planning.
-
--  Completed my MSc thesis on cross-lingual transfer failure modes in multilingual language models (XLM-R, mBERT, BanglaBERT, GBERT)
--  Recently published a satellite-based **Urban Canopy & Heat Analysis** of Riyadh using Google Earth Engine
--  Authored research on **Mental Health Detection using BERT & RoBERTa**
--  Open to roles in ML/AI, Data Science, and Geospatial Analytics
-
----
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black)
-![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google-earth&logoColor=white)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-139CD8?style=for-the-badge&logoColor=white)
+<p align="center">
+  <a href="https://linkedin.com/in/amin-baiju"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Berlin,_Germany-555555?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Berlin">
+</p>
 
 ---
 
-## Featured Projects
+### About me
 
-### 🌐 [Cross-Lingual Transfer Failure Modes (MSc Thesis)](https://github.com/wckd6174/crosslingual-transfer-failure-modes)
-Master's dissertation proposing a 12-mode failure-mode taxonomy for cross-lingual transfer in multilingual encoders, tested on English, German and Bengali sentiment classification.
-- **Tech:** XLM-RoBERTa, mBERT, BanglaBERT, GBERT, Hugging Face Transformers, PyTorch.
-- **Impact:** Showed zero-shot transfer loses ~2× more macro-F1 on Bengali than on German for both multilingual models (gap to monolingual ceiling: 0.24 vs 0.11 for XLM-R).
-- **Highlight:** Exposed silent calibration failure. mBERT on Bengali sits at chance-level macro-F1 (0.50) with 92% average confidence, and GBERT sees 95% UNK tokens on Bengali yet still predicts at 98% confidence.
+I build NLP and geospatial models and care about whether they can be trusted, not only how accurate they look. My MSc thesis showed that multilingual language models can be close to chance on a language while reporting over 90% confidence, and I now treat calibration and failure analysis as part of every evaluation.
 
-### 🌍 [Riyadh Urban Canopy & Heat Analysis](https://github.com/wckd6174/riyadh-urban-canopy)
+I speak Malayalam, Tamil, Hindi and English (plus basic German), which is a large part of why multilingual NLP interests me. Before data science I studied English literature and worked in narrative filmmaking, so I put real effort into explaining results clearly to non-technical people.
 
-*Satellite-derived priority map for urban greening interventions in Riyadh.*
+---
 
-- **Tech:** Google Earth Engine, Sentinel-2, Landsat 8/9, ESA WorldCover, Python.
-- **Impact:** Quantified **+27% vegetation cover growth** (2019–2025) and identified **246 km² of high-priority planting zones** — a 2.5× expansion envelope on current canopy.
-- **Highlight:** Multi-sensor fusion (optical NDVI + thermal LST + land-cover masking) producing planning-ready intervention zones.
+### Featured work
 
-### 🌊 [El Niño Global Teleconnections & Rainfall Prediction](https://github.com/wckd6174/enso-teleconnections)
-End-to-end climate analysis mapping how El Niño reorganises rainfall worldwide, with a validated regional prediction model.
-- **Tech:** xarray, Cartopy, Scikit-learn, NOAA ERSSTv5 & GPCP, Python.
-- **Impact:** Reproduced every canonical El Niño teleconnection from raw data; a model trained excluding the 2015/16 super-El-Niño still anticipated its rainfall pattern (DJF correlation up to 0.91).
-- **Highlight:** Diagnosed that the model captures rainfall *timing* but under-predicts *extreme magnitude* — and that ENSO skill decays from the Pacific core outward, weakest where the Indian Ocean Dipole dominates.
-  
-### 🧠 [AI-Powered Mental Health Detection (NLP)](https://github.com/wckd6174/mental-health-nlp-detection)
+#### [Cross-Lingual Transfer Failure Modes](https://github.com/wckd6174/crosslingual-transfer-failure-modes) · MSc thesis
+**Question:** When a multilingual model is fine-tuned on English, how and why does it fail on other languages?
+- Proposed a 12-mode failure taxonomy and measured it on 4 models (XLM-R, mBERT, BanglaBERT, GBERT) across English, German and Bengali.
+- Zero-shot transfer lost **~2× more macro-F1 on Bengali than on German** for both multilingual models.
+- Found **silent calibration failure**: mBERT on Bengali sits at chance (macro-F1 0.50) with 92% average confidence; GBERT sees 95% unknown tokens on Bengali yet predicts at 98% confidence.
+- Turned the findings into a pre-deployment checklist: tokenizer coverage, ECE, and comparison against a monolingual baseline.
 
-*Authored research benchmarking Transformer models against Deep Learning baselines.*
+`Python` `PyTorch` `Hugging Face Transformers` `scikit-learn` `Google Colab (T4)`
 
-- **Tech:** BERT, RoBERTa, LSTM, PyTorch.
-- **Impact:** Achieved **>99% accuracy** in detecting depressive language on social media.
-- **Highlight:** Addressed ethical AI challenges and data bias.
+#### [Riyadh Urban Canopy & Heat Analysis](https://github.com/wckd6174/riyadh-urban-canopy)
+**Question:** Where in Riyadh would new greenery reduce heat the most?
+- Fused Sentinel-2 NDVI, Landsat 8/9 land-surface temperature and ESA WorldCover into a planting-priority map.
+- Measured **+27% vegetation cover (2019–2025)** and identified **246 km² of high-priority planting zones**.
 
-### ✈️ [Airline Passenger Satisfaction Prediction](https://github.com/wckd6174/airline-satisfaction-classifier)
+`Google Earth Engine` `Sentinel-2` `Landsat` `Python`
 
-*End-to-end classification pipeline identifying key service differentiators.*
+#### [El Niño Teleconnections & Rainfall Prediction](https://github.com/wckd6174/EL-NINO-REPO-NAME)
+**Question:** How does El Niño reshape rainfall worldwide, and can it be predicted regionally?
+- Reproduced the canonical El Niño rainfall patterns from raw NOAA ERSSTv5 and GPCP data.
+- A model trained **without** the 2015/16 super El Niño still anticipated its rainfall pattern (DJF correlation up to 0.91).
+- Showed where it fails: it gets timing right but under-predicts extremes, and skill fades away from the Pacific.
 
-- **Tech:** Random Forest, GridSearch, Feature Importance Analysis.
-- **Impact:** Achieved **96% Test Accuracy** and identified In-flight Wi-Fi as a top ROI driver.
+`xarray` `Cartopy` `scikit-learn` `Python`
 
-### 📞 [Telecom Customer Churn Prediction](https://github.com/wckd6174/telecom-churn-prediction)
+---
 
-*Predictive system to support data-driven retention strategies.*
+### More projects
 
-- **Tech:** XGBoost, SMOTE (Class Imbalance), Scikit-learn.
-- **Impact:** Optimized model for **Recall** to capture high-risk customers for intervention.
+| Project | What it does | Stack |
+|---|---|---|
+| [Mental Health Detection (NLP)](https://github.com/wckd6174/mental-health-nlp-detection) | Benchmarks BERT/RoBERTa against LSTM baselines for detecting depressive language in social-media posts | BERT, RoBERTa, LSTM, PyTorch |
+| [Airline Passenger Satisfaction](https://github.com/wckd6174/airline-satisfaction-classifier) | Classifies satisfaction and ranks service drivers; 96% test accuracy, in-flight Wi-Fi identified as a top driver | Random Forest, GridSearchCV |
+| [Telecom Churn Prediction](https://github.com/wckd6174/telecom-churn-prediction) | Recall-focused churn model to flag at-risk customers for retention | XGBoost, SMOTE, scikit-learn |
+
+---
+
+### Toolkit
+
+| | |
+|---|---|
+| **Languages** | Python, SQL |
+| **ML / DL** | PyTorch, TensorFlow, scikit-learn, XGBoost |
+| **NLP** | Hugging Face Transformers, multilingual encoders, model calibration (ECE, Brier) |
+| **Geospatial & climate** | Google Earth Engine, GeoPandas, xarray, Cartopy |
+| **Data & BI** | pandas, NumPy, Power BI, Tableau |
+| **Cloud** | AWS, GCP |
+
+---
+
+### Education
+- **MSc Data Science, AI & Digital Business**, Gisma University of Applied Sciences, Berlin (2026)
+- **BA English Literature**, Dr. Palpu College of Arts and Science, Kollam (2019–2022)
