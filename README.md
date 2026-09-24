@@ -2,12 +2,12 @@
 
 ## Machine Learning Engineer | NLP & Geospatial Analytics | Data Scientist
 
-I am a Master's student in Berlin bridging the gap between raw data and intelligent decision-making. I specialize in building robust **NLP pipelines**, **predictive models**, and **geospatial analyses** that solve real-world problems across business, healthcare, and urban planning.
+I am MSc Data Science graduate based in Berlin bridging the gap between raw data and intelligent decision-making. I specialize in building robust **NLP pipelines**, **predictive models**, and **geospatial analyses** that solve real-world problems across business, healthcare, and urban planning.
 
--  Currently writing my Master's thesis on **Cross-Lingual Transfer in Multilingual LLMs** (BERT, mBERT, XLM-RoBERTa)
+-  Completed my MSc thesis on cross-lingual transfer failure modes in multilingual language models (XLM-R, mBERT, BanglaBERT, GBERT)
 -  Recently published a satellite-based **Urban Canopy & Heat Analysis** of Riyadh using Google Earth Engine
 -  Authored research on **Mental Health Detection using BERT & RoBERTa**
--  Open to **Working Student** & **Entry-Level** roles in ML/AI, Data Science, and Geospatial Analytics
+-  Open to roles in ML/AI, Data Science, and Geospatial Analytics
 
 ---
 
@@ -25,6 +25,12 @@ I am a Master's student in Berlin bridging the gap between raw data and intellig
 ---
 
 ## Featured Projects
+
+### 🌐 [Cross-Lingual Transfer Failure Modes (MSc Thesis)](https://github.com/wckd6174/crosslingual-transfer-failure-modes)
+Master's dissertation proposing a 12-mode failure-mode taxonomy for cross-lingual transfer in multilingual encoders, tested on English, German and Bengali sentiment classification.
+- **Tech:** XLM-RoBERTa, mBERT, BanglaBERT, GBERT, Hugging Face Transformers, PyTorch.
+- **Impact:** Showed zero-shot transfer loses ~2× more macro-F1 on Bengali than on German for both multilingual models (gap to monolingual ceiling: 0.24 vs 0.11 for XLM-R).
+- **Highlight:** Exposed silent calibration failure. mBERT on Bengali sits at chance-level macro-F1 (0.50) with 92% average confidence, and GBERT sees 95% UNK tokens on Bengali yet still predicts at 98% confidence.
 
 ### 🌍 [Riyadh Urban Canopy & Heat Analysis](https://github.com/wckd6174/riyadh-urban-canopy)
 
