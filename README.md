@@ -38,7 +38,7 @@ I speak Malayalam, Tamil, Hindi and English (plus basic German), which is a larg
 
 `Google Earth Engine` `Sentinel-2` `Landsat` `Python`
 
-#### [El Niño Teleconnections & Rainfall Prediction](https://github.com/wckd6174/EL-NINO-REPO-NAME)
+#### [El Niño Teleconnections & Rainfall Prediction](https://github.com/wckd6174/enso-teleconnections)
 **Question:** How does El Niño reshape rainfall worldwide, and can it be predicted regionally?
 - Reproduced the canonical El Niño rainfall patterns from raw NOAA ERSSTv5 and GPCP data.
 - A model trained **without** the 2015/16 super El Niño still anticipated its rainfall pattern (DJF correlation up to 0.91).
